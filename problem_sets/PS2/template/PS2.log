@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  30 JAN 2020 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.26)  10 FEB 2020 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,43 +1024,84 @@ LaTeX Info: Redefining \nameref on input line 67.
  [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 102.
+
+(./PS2CatC.R
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 3.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<../women_desc.png, id=38, 750.805pt x 300.12125pt>
+(./PS2CatC.R) [2] (./PS2CatC.R) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+<../women_desc.png, id=72, 750.805pt x 300.12125pt>
 File: ../women_desc.png Graphic file (type png)
 <use ../women_desc.png>
-Package pdftex.def Info: ../women_desc.png  used on input line 139.
+Package pdftex.def Info: ../women_desc.png  used on input line 152.
 (pdftex.def)             Requested size: 516.73338pt x 206.5664pt.
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 139--140
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
-[4 <../women_desc.png>] [5] [6] [7] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+[4 <../women_desc.png>] (./PS2CatC.R) (./PS2CatC.R) [5] (./PS2CatC.R) [6]
+(./PS2CatC.R) [7] (./PS2CatC.R) (./PS2CatC.R) (./PS2CatC.R) [8] (./PS2CatC.R)
+(./PS2CatC.R) [9] (./PS2CatC.R)
+<PS21.png, id=185, 644.90938pt x 411.03563pt>
+File: PS21.png Graphic file (type png)
+<use PS21.png>
+Package pdftex.def Info: PS21.png  used on input line 272.
+(pdftex.def)             Requested size: 469.75502pt x 299.39496pt.
+<PS22.png, id=186, 568.1225pt x 370.38374pt>
+File: PS22.png Graphic file (type png)
+<use PS22.png>
+Package pdftex.def Info: PS22.png  used on input line 276.
+(pdftex.def)             Requested size: 469.75502pt x 306.26549pt.
+
+
+LaTeX Warning: Float too large for page by 39.89706pt on input line 279.
+
+[10] [11 <./PS21.png> <./PS22.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
  (./PS2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `PS2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  ) 
 Here is how much of TeX's memory you used:
- 22303 strings out of 492616
- 392549 string characters out of 6129482
- 499302 words of memory out of 5000000
- 25783 multiletter control sequences out of 15000+600000
- 14735 words of font info for 61 fonts, out of 8000000 for 9000
+ 23524 strings out of 492616
+ 405502 string characters out of 6129481
+ 797526 words of memory out of 5000000
+ 26831 multiletter control sequences out of 15000+600000
+ 15070 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,52p,3235b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,52p,3235b,2188s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1068,15 +1109,18 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on PS2.pdf (8 pages, 150219 bytes).
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on PS2.pdf (11 pages, 338788 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 298 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
