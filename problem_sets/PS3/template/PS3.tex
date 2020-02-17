@@ -78,17 +78,33 @@
 		\vspace{.25cm}
 	
 \noindent In this problem set, you will run several regressions and create an add variable plot (see the lecture slides) in \texttt{R} using the \texttt{incumbents\_subset.csv} dataset. Include all of your code.
-
+\label{key}
 	\vspace{.5cm}
 \section*{Question 1 (20 points)}
 \vspace{.25cm}
 \noindent We are interested in knowing how the difference in campaign spending between incumbent and challenger affects the incumbent's vote share. 
 	\begin{enumerate}
-		\item Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{difflog}.	\vspace{5cm}
+		\item Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{difflog}.	
+			
+		\lstinputlisting[language=R, firstline=1, lastline=7]{PS3CatC.R}  
 		
-		\item Make a scatterplot of the two variables and add the regression line. 	\vspace{7cm}
-		\item Save the residuals of the model in a separate object.	\vspace{7cm}
+		\item Make a scatterplot of the two variables and add the regression line. 	
+		
+		\lstinputlisting[language=R, firstline=8, lastline=10]{PS3CatC.R}  
+			\begin{figure}[h!]
+			\includegraphics[width=\linewidth]{PS31}
+			\caption{voteshare vs difflog.}
+			\label{fig:PS31}
+			\end{figure}	
+		
+		\item Save the residuals of the model in a separate object.	
+		
+		\lstinputlisting[language=R, firstline=11, lastline=12]{PS3CatC.R}  
+		
 		\item Write the prediction equation.
+		
+		\lstinputlisting[language=R, firstline=13, lastline=21]{PS3CatC.R}  
+		
 	\end{enumerate}
 	
 \newpage
@@ -96,10 +112,19 @@
 \section*{Question 2 (20 points)}
 \noindent We are interested in knowing how the difference between incumbent and challenger's spending and the vote share of the presidential candidate of the incumbent's party are related.	\vspace{.25cm}
 	\begin{enumerate}
-		\item Run a regression where the outcome variable is \texttt{presvote} and the explanatory variable is \texttt{difflog}.	\vspace{5cm}
-		\item Make a scatterplot of the two variables and add the regression line. 	\vspace{5cm}
-		\item Save the residuals of the model in a separate object.	\vspace{5cm}
+		\item Run a regression where the outcome variable is \texttt{presvote} and the explanatory variable is \texttt{difflog}.	
+			\lstinputlisting[language=R, firstline=23, lastline=25]{PS3CatC.R}  
+		\item Make a scatterplot of the two variables and add the regression line. 
+			\lstinputlisting[language=R, firstline=26, lastline=28]{PS3CatC.R}  
+			\begin{figure}[h!]
+				\includegraphics[width=\linewidth]{PS32}
+				\caption{prevote vs difflog.}
+				\label{fig:PS32}
+			\end{figure}
+		\item Save the residuals of the model in a separate object.	
+			\lstinputlisting[language=R, firstline=29, lastline=30]{PS3CatC.R}  
 		\item Write the prediction equation.
+			\lstinputlisting[language=R, firstline=31, lastline=39]{PS3CatC.R}  
 	\end{enumerate}
 	
 	\newpage	
@@ -109,10 +134,16 @@
 	\vspace{.25cm}
 	\begin{enumerate}
 		\item Run a regression where the outcome variable is \texttt{voteshare} and the explanatory variable is \texttt{presvote}.
-			\vspace{5cm}
-		\item Make a scatterplot of the two variables and add the regression line. 
-			\vspace{5cm}
+			\lstinputlisting[language=R, firstline=41, lastline=43]{PS3CatC.R}  
+		\item Make a scatterplot of the two variables and add the regression line.
+			\lstinputlisting[language=R, firstline=44, lastline=46]{PS3CatC.R}   
+		\begin{figure}[h!]
+			\includegraphics[width=\linewidth]{PS33}
+			\caption{voteshare vs prevote.}
+			\label{fig:PS33}
+		\end{figure}
 		\item Write the prediction equation.
+			\lstinputlisting[language=R, firstline=47, lastline=55]{PS3CatC.R}  
 	\end{enumerate}
 	
 
@@ -120,9 +151,17 @@
 \section*{Question 4 (20 points)}
 \noindent The residuals from part (a) tell us how much of the variation in \texttt{voteshare} is $not$ explained by the difference in spending between incumbent and challenger. The residuals in part (b) tell us how much of the variation in \texttt{presvote} is $not$ explained by the difference in spending between incumbent and challenger in the district.
 	\begin{enumerate}
-		\item Run a regression where the outcome variable is the residuals from Question 1 and the explanatory variable is the residuals from Question 2.	\vspace{6cm}
-		\item Make a scatterplot of the two residuals and add the regression line. 	\vspace{6cm}
+		\item Run a regression where the outcome variable is the residuals from Question 1 and the explanatory variable is the residuals from Question 2.	
+			\lstinputlisting[language=R, firstline=57, lastline=60]{PS3CatC.R}  
+		\item Make a scatterplot of the two residuals and add the regression line. 	
+			\lstinputlisting[language=R, firstline=61, lastline=63]{PS3CatC.R}  
+				\begin{figure}[h!]
+				\includegraphics[width=\linewidth]{PS34}
+				\caption{re1 vs re2.}
+				\label{fig:PS4}
+			\end{figure}
 		\item Write the prediction equation.
+		\lstinputlisting[language=R, firstline=64, lastline=72]{PS3CatC.R}  
 	\end{enumerate}
 	
 	\newpage	
@@ -130,8 +169,9 @@
 \section*{Question 5 (20 points)}
 \noindent What if the incumbent's vote share is affected by both the president's popularity and the difference in spending between incumbent and challenger? 
 	\begin{enumerate}
-		\item Run a regression where the outcome variable is the incumbent's \texttt{voteshare} and the explanatory variables are \texttt{difflog} and \texttt{presvote}.	\vspace{5cm}
-		\item Write the prediction equation.	\vspace{5cm}
+		\item Run a regression where the outcome variable is the incumbent's \texttt{voteshare} and the explanatory variables are \texttt{difflog} and \texttt{presvote}.	\lstinputlisting[language=R, firstline=74, lastline=79]{PS3CatC.R}  
+		\item Write the prediction equation.	
+		\lstinputlisting[language=R, firstline=80, lastline=90]{PS3CatC.R}  
 		\item What is it in this output that is identical to the output in Question 4? Why do you think this is the case?	\vspace{5cm}
 	%	\item Reflect on your finding. Don't write anything. Just think about it.
 	\end{enumerate}
