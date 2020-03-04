@@ -85,12 +85,46 @@
 Answer the following questions:
 \vspace{.5cm}
 \begin{enumerate}[(a)]
-	 \item Check the constant variance assumption for the errors by plotting the residuals versus the fitted values. \newpage
-	\item Check the normality assumption with a Q-Q plot of the studentized residuals. \vspace{6cm}
+	 \item Check the constant variance assumption for the errors by plotting the residuals versus the fitted values. 
+
+	\item Check the normality assumption with a Q-Q plot of the studentized residuals. 
+	\vspace{1cm}	
+		\lstinputlisting[language=R, firstline=42, lastline=53]{PS5CatC.R}  
+		 
+	\begin{figure}[h!]
+		\includegraphics[width=\linewidth]{PS51}
+		\caption{ Diagnose of model.}
+		\label{fig:PS51}
+	\end{figure}	
+	\vspace{1cm}
+ 
+    \newpage
+	\item Check for large leverage points by plotting the $h$ values.
+		\lstinputlisting[language=R, firstline=55, lastline=61]{PS5CatC.R}  
+		\vspace{1cm}
 	
-	\item Check for large leverage points by plotting the $h$ values. \vspace{6cm}
-	\item Check for outliers by running an \texttt{outlierTest}. \vspace{6cm}
+	\begin{figure}[h!]
+		\includegraphics[width=\linewidth]{PS52}
+		\caption{ h value plot.}
+		\label{fig:PS52}
+	\end{figure}	
+	\vspace{1cm}
+	
+	
+	\item Check for outliers by running an \texttt{outlierTest}. 	
+	\lstinputlisting[language=R, firstline=63, lastline=71]{PS5CatC.R}  
+	\vspace{1cm}
+	
 	\item Check for influential points by creating a "Bubble plot" with the hat-values and studentized residuals.
+		\lstinputlisting[language=R, firstline=73, lastline=80]{PS5CatC.R}  
+	\vspace{1cm}
+	
+	\begin{figure}[h!]
+		\includegraphics[width=\linewidth]{PS53}
+		\caption{Bubble plot.}
+		\label{fig:PS53}
+	\end{figure}	
+	\vspace{1cm}
 	% \item N/A.
 \end{enumerate}
 
