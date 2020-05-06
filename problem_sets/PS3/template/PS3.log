@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.26)  17 FEB 2020 14:27
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  17 FEB 2020 13:52
->>>>>>> upstream/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.26)  4 MAR 2020 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,7 +1032,7 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 File: lstlang3.sty 2019/02/27 1.8b listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 89.
+nput line 94.
 
 (./PS3CatC.R
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 3.
@@ -1046,13 +1042,14 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
 )
-(./PS3CatC.R [1
+[1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-<PS31.png, id=31, 557.58313pt x 369.88188pt>
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./PS3CatC.R)
+<PS31.png, id=26, 557.58313pt x 369.88188pt>
 File: PS31.png Graphic file (type png)
 <use PS31.png>
-Package pdftex.def Info: PS31.png  used on input line 95.
+Package pdftex.def Info: PS31.png  used on input line 100.
 (pdftex.def)             Requested size: 469.75502pt x 311.6299pt.
  (./PS3CatC.R) (./PS3CatC.R
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
@@ -1062,40 +1059,40 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-) [2 <./PS31.png>] (./PS3CatC.R) (./PS3CatC.R)
-<PS32.png, id=59, 550.55687pt x 363.3575pt>
+ [2 <./PS31.png>]) [3] (./PS3CatC.R) (./PS3CatC.R)
+<PS32.png, id=63, 550.55687pt x 363.3575pt>
 File: PS32.png Graphic file (type png)
 <use PS32.png>
-Package pdftex.def Info: PS32.png  used on input line 120.
+Package pdftex.def Info: PS32.png  used on input line 125.
 (pdftex.def)             Requested size: 469.75502pt x 310.04181pt.
- (./PS3CatC.R) [3 <./PS32.png>] (./PS3CatC.R)
-[4] (./PS3CatC.R) (./PS3CatC.R)
-<PS33.png, id=95, 554.57187pt x 368.37625pt>
+ (./PS3CatC.R) [4 <./PS32.png>] (./PS3CatC.R)
+[5] (./PS3CatC.R) (./PS3CatC.R)
+<PS33.png, id=99, 554.57187pt x 368.37625pt>
 File: PS33.png Graphic file (type png)
 <use PS33.png>
-Package pdftex.def Info: PS33.png  used on input line 141.
+Package pdftex.def Info: PS33.png  used on input line 147.
 (pdftex.def)             Requested size: 469.75502pt x 312.03644pt.
- (./PS3CatC.R [5 <./PS33.png>]) [6] (./PS3CatC.R) (./PS3CatC.R)
-<PS34.png, id=127, 555.07375pt x 366.36874pt>
+ [6 <./PS33.png>] (./PS3CatC.R) [7] (./PS3CatC.R) (./PS3CatC.R)
+<PS34.png, id=134, 555.07375pt x 366.36874pt>
 File: PS34.png Graphic file (type png)
 <use PS34.png>
-Package pdftex.def Info: PS34.png  used on input line 159.
+Package pdftex.def Info: PS34.png  used on input line 170.
 (pdftex.def)             Requested size: 469.75502pt x 310.05644pt.
- (./PS3CatC.R [7 <./PS34.png>]) [8] (./PS3CatC.R) (./PS3CatC.R)
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+ (./PS3CatC.R [8 <./PS34.png>]) [9] (./PS3CatC.R) (./PS3CatC.R)
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (./PS3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `PS3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 23494 strings out of 492616
- 405213 string characters out of 6129481
- 750556 words of memory out of 5000000
+ 23496 strings out of 492616
+ 405227 string characters out of 6129481
+ 750748 words of memory out of 5000000
  26810 multiletter control sequences out of 15000+600000
  14724 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1112,10 +1109,10 @@ cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
 texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on PS3.pdf (9 pages, 723146 bytes).
+Output written on PS3.pdf (10 pages, 724452 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 133 named destinations out of 1000 (max. 500000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 135 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
